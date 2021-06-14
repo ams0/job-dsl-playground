@@ -41,10 +41,10 @@ idea {
 apply plugin: "eclipse"
 
 repositories {
-  maven { url "http://oss.jfrog.org/artifactory/repo" }
+  maven { url "https://oss.jfrog.org/artifactory/repo" }
   jcenter()
-  maven { url "http://repo.springsource.org/repo" } // for springloaded
-  maven { url "http://repo.jenkins-ci.org/releases/" }
+  maven { url "https://repo.springsource.org/repo" } // for springloaded
+  maven { url "https://repo.jenkins-ci.org/releases/" }
 }
 
 configurations.all {
